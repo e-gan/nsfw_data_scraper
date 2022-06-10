@@ -13,6 +13,9 @@ declare -a class_names=(
 	"sexy"
 	"porn"
 	"hentai"
+	"violence"
+	"drugs"
+	"offensive"
 	)
 
 

@@ -13,15 +13,13 @@ base_dir="$(dirname "$scripts_dir")"
 raw_data_dir="$base_dir/raw_data"
 
 declare -a class_names=(
-	"neutral"
-	"drawings"
-	"sexy"
-	"porn"
-	"hentai"
+	"violence"
+	"drugs"
+	"offensive"
 	)
 
 #download ripme.jar
-wget https://github.com/RipMeApp/ripme/releases/download/1.7.95/ripme.jar -O $scripts_dir/ripme.jar
+#wget https://github.com/RipMeApp/ripme/releases/download/1.7.95/ripme.jar -O $scripts_dir/ripme.jar
 
 for cname in "${class_names[@]}"
 do
